@@ -15,7 +15,7 @@ def encode(strs: list[str]) -> str:
         res.append(str(sz))
         res.append(",")
     
-    # Prefix "#" to mark the end of the word and append the actual string in order
+    # Add "#" to mark the end of the word and append the actual string in order
     res.append("#")
     res.extend(strs)
 
